@@ -1,0 +1,25 @@
+{
+  "name": "inilim/array_type",
+  "description": "array_type",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Inilim\\ArrayType\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "inilim"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.2",
+    "inilim/array": "dev-main"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "@stable"
+  }
+}
