@@ -65,6 +65,10 @@ abstract class ArrayObject
      * @var string[]
      */
     protected const EXCEPT_METHODS = [];
+    /**
+     * @var <string,string>
+     */
+    protected const ALIAS_METHODS  = [];
 
     protected array $items = [];
 
