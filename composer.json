@@ -20,6 +20,7 @@
     "inilim/array": "dev-main"
   },
   "require-dev": {
-    "phpstan/phpstan": "@stable"
+    "phpstan/phpstan": "@stable",
+    "inilim/dump": "dev-main"
   }
 }
